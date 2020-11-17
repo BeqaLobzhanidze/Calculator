@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+.App div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  background-color:#2d3436;
+  color:white;
+  font-size: 150%;
+  font-family: 'Caveat', cursive;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.AC {
+  grid-column: 1/4;
+}
+
+.result {
+  grid-column: 1/5;
+}
+.App .zero {
+  grid-column: 1/3;
+}
+.App .divide , 
+.App .multiply , 
+.App .subtract , 
+.App .add ,
+.App .equals {
+  background-color: #e17055;
+  color:black;
+}
+.App .AC ,
+.App .decimal ,
+.App .result {
+  background-color: #c7ecee;
+  color:black
+}
+
+.App div:active {
+  border:1px solid white;
+}
+.App .result:active {
+  border:1px solid yellow;
+}
+.App div:hover {
+  opacity:0.5;
+}
+.App .result:hover {
+  opacity:1;
+}
+.App .result {
+  cursor: auto;
+}
